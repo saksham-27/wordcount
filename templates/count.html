@@ -1,0 +1,13 @@
+<h1>Word Counting</h1>
+<h2>Your text</h2>
+{{fulltext}}
+<br>
+Total no of words = {{l}}
+<br>
+<br />
+
+{% for w,val in worddictionary %}
+{{w}}   :    {{val}}<br />
+{%endfor%}
+
+<br>
